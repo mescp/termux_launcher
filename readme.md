@@ -10,7 +10,7 @@
 
     `$ pkg install termux-exec`
     
-1. 在/home目录添加.bash_profile文件，内容如下
+1. 在/home目录添加`.bash_profile文件`，内容如下
 
     `if ! pgrep -f "proot" >/dev/null ; then termux-chroot ;fi`
 

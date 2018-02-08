@@ -11,6 +11,12 @@
       "command": "sshd",
       "args": "",
       "grep": "sshd"
+    },
+    {
+      "name": "aria2c",
+      "command": "bash",
+      "args": "./bin/aria2c.sh",
+      "grep": "aria2c"
     }
   ]
 }
