@@ -34,6 +34,5 @@
 ## 启动
 
     launcher
-    
 
-[](./docs/demo.gif)
+![demo](./docs/demo.gif)
