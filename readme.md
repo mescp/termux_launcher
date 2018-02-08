@@ -52,6 +52,12 @@
           "grep": "sshd"        -- 查找和停止服务的grep参数
         },
         {
+          "name": "aria2c",     
+          "command": "bash",
+          "args": "./bin/aria2c.sh",    -- 通过 pkg install aria2c 安装
+          "grep": "aria2c"
+        },
+        {
            ......
         }
       ]
