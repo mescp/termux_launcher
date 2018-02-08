@@ -1,0 +1,17 @@
+{
+  "name": "termux_launcher",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "launcher": "./bin/launcher.js"
+  },
+  "author": "web9s",
+  "license": "ISC",
+  "dependencies": {
+    "blessed": "^0.1.81"
+  }
+}

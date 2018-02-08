@@ -1,0 +1,16 @@
+{
+  "appInfo": [
+    [
+      "名称",
+      "状态"
+    ]
+  ],
+  "appList": [
+    {
+      "name": "sshd",
+      "command": "sshd",
+      "args": "",
+      "grep": "sshd"
+    }
+  ]
+}
