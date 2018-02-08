@@ -54,7 +54,7 @@
         {
           "name": "aria2c",     
           "command": "bash",
-          "args": "./bin/aria2c.sh",    -- 通过 pkg install aria2c 安装
+          "args": "./bin/aria2c.sh",    -- 通过 pkg install aria2 安装
           "grep": "aria2c"
         },
         {
