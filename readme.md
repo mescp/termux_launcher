@@ -30,7 +30,32 @@
     
 ### 初始化
 
-    $ npm link
+1. 设置 `config.json`
+
+    `$ cp  config_example.json config.json`
+
+说明：
+
+    {
+      "appInfo": [
+        [
+          "名称",         
+          "状态"
+        ]
+      ],
+      "appList": [
+        {
+          "name": "sshd",       -- 服务名称，不能重复
+          "command": "sshd",    -- 执行命令
+          "args": "",           -- 执行命令的参数
+          "grep": "sshd"        -- 查找和停止服务的grep参数
+        }
+      ]
+    }
+    
+1. 全局安装
+
+    `$ npm link`
     
 ## 启动
 
