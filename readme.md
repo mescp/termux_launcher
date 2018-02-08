@@ -1,4 +1,5 @@
 ## termux_launcher
+
 >  在[termux](https://termux.com/help.html)中运行的服务启停工具
 
 ## 使用方法
@@ -37,7 +38,7 @@
 说明：
 
     {
-      "appInfo": [
+      "appTitle": [
         [
           "名称",         
           "状态"
@@ -49,6 +50,9 @@
           "command": "sshd",    -- 执行命令
           "args": "",           -- 执行命令的参数
           "grep": "sshd"        -- 查找和停止服务的grep参数
+        },
+        {
+           ......
         }
       ]
     }
@@ -62,3 +66,8 @@
     $ launcher
 
 ![demo](./docs/demo.gif)
+
+
+## License
+
+The MIT License

@@ -73,7 +73,7 @@ screen.key(['q','C-c'], function (ch, key) {
 
 function updateTable(init) {
     var index = table.selected;
-    var appdata = Object.assign([], config.appInfo);
+    var appdata = Object.assign([], config.appTitle);
     global.appList.forEach(function (app) {
         if (init && appprocess.running(app)) {
             app['state'] = "runing";
